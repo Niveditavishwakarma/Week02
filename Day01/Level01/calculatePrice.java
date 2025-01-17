@@ -8,7 +8,7 @@ public class calculatePrice{
 		int quantity1 = sc.nextInt();
 		System.out.println("total cost of " + quantity1 +" items is: " + item1.totalCost(quantity1));
 		System.out.println("--------------------------------------");
-		Item item2 = new Item("002","microvave",15000);
+		Item item2 = new Item("002","microwave",15000);
 		item2.display();
 		System.out.println("Enter quantity: ");
 		int quantity2 = sc.nextInt();
