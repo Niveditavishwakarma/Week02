@@ -19,7 +19,11 @@ class Book {
     
 	//static variable
 	private static String libraryName = "Edge Solver";
+	
+	//final variable
     private final String ISBN;
+	
+	//instance variable
 	private String title;
 	private String author;
 	
