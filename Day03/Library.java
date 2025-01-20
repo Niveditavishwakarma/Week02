@@ -40,8 +40,13 @@ class Book {
 	}
     // Method to Display Book Details
     public void displayBookDetails() {
+		if(this instanceof Book){
         System.out.println("ISBN: " + ISBN);
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
+		}
+		else{
+			System.out.println("not a valid object of Book");
+		}
     }
 }
