@@ -8,11 +8,11 @@ public class ShoppingCart
 
         // Use instanceof to check object type
         if (product1 instanceof Product) {
-            product1.displayDetails();  // Display details of product1
+            product1.displayDetails();  
         }
 
         if (product2 instanceof Product) {
-            product2.displayDetails();  // Display details of product2
+            product2.displayDetails();  
         }
 
         // Update the discount globally
